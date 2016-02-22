@@ -50,7 +50,7 @@
             android:title="@string/weather_use_custom_location"
             android:defaultValue="false" />
 
-        <com.cyanogenmod.lockclock.preference.CustomLocationPreference
+        <com.re.briefingwidget.preference.CustomLocationPreference
             android:key="weather_custom_location_city"
             android:dependency="weather_use_custom_location"
             android:dialogTitle="@string/weather_custom_location_dialog_title"
@@ -60,7 +60,7 @@
 
     <PreferenceCategory android:title="@string/display_category">
 
-        <com.cyanogenmod.lockclock.preference.IconSelectionPreference
+        <com.re.briefingwidget.preference.IconSelectionPreference
             android:key="weather_icons"
             android:title="@string/weather_icon_set_title"
             android:dialogTitle="@string/weather_icon_set_title"

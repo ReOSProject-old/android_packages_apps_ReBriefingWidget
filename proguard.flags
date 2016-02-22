@@ -1,4 +1,4 @@
--keep class com.cyanogenmod.lockclock.preference.Preferences {
+-keep class com.re.briefingwidget.preference.Preferences {
   *;
 }
 
