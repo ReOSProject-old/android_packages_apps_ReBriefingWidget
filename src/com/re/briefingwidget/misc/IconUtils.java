@@ -70,7 +70,7 @@ public class IconUtils {
                 resId = res.getIdentifier("weather_" + conditionCode, "drawable", packageName);
             } catch (PackageManager.NameNotFoundException e) {
                 // fall back to colored icons
-                iconSet = Constants.COLOR_STD;
+                iconSet = Constants.MONOCHROME;
             }
         }
         if (resId == 0) {
